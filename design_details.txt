@@ -1,0 +1,96 @@
+=========================================
+      EXISTING DESIGN SPECIFICATIONS
+=========================================
+
+1. COLORS
+----------
+- Background:
+  - Root: #f8fafc
+  - Body Gradient: linear-gradient(to bottom right, #d4e4bc, #f9f7f2, #e2e8ce)
+  - Decorative Blobs (Emerald/Lime): #a7f3d0/30 (emerald-200/30), #d9f99d/30 (lime-200/30)
+
+- Primary / Accent (Emerald Palette):
+  - Emerald-500: #10b981 (Used in Focus Rings)
+  - Emerald-600: #059669 (Primary Button Background, Footer Text)
+  - Emerald-700: #047857 (Header Icon Text)
+  - Emerald-500/10: rgba(16, 185, 129, 0.1) (Icon Background)
+
+- Dark / Backgrounds:
+  - Gray-900: #111827 (Download Button)
+  - Gray-800: #1f2937 (Download Button Hover)
+  - White/50: rgba(255, 255, 255, 0.5) (Input Background)
+  - White: #ffffff (QR Container)
+
+- Text:
+  - Title/Primary: #1f2937 (Gray-800)
+  - Labels/Secondary: #4b5563 (Gray-600)
+  - Tertiary/Footer: #6b7280 (Gray-500)
+  - Placeholder/Muted: #9ca3af (Gray-400)
+  - Error: #ef4444 (Red-500)
+
+- Glassmorphism:
+  - Fill: rgba(255, 255, 255, 0.2)
+  - Border: 1px solid rgba(255, 255, 255, 0.3)
+  - Backdrop Blur: 12px
+  - Shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37)
+
+- QR Code Templates:
+  - Classic: FG #000000, BG #ffffff
+  - Emerald: FG #064e3b, BG #ecfdf5
+  - Midnight: FG #4c1d95, BG #f5f3ff
+  - Sunset: FG #9a3412, BG #fff7ed
+  - Ocean: FG #1e3a8a, BG #eff6ff
+
+
+2. TYPOGRAPHY
+--------------
+- Font Family: "Inter", system-ui, -apple-system, sans-serif
+- Font Sizes:
+  - Header: 3xl (30px / 1.875rem)
+  - Input/Labels: sm (14px / 0.875rem)
+  - Template Labels: text-[10px] (10px) / text-xs (12px)
+  - Button Text: Font-semibold / Font-bold
+- Font Weights:
+  - Bold: 700 (Header, Template Names)
+  - Semibold: 600 (Primary Buttons)
+  - Medium: 500 (Footer, Preview Text)
+  - Normal: 400 (Input Text)
+
+
+3. UI ELEMENTS & VISUAL STYLES
+-------------------------------
+- Main Container:
+  - Max Width: 36rem (max-w-xl)
+  - Padding: 2rem (p-8)
+  - Border Radius: 2.5rem (rounded-[2.5rem])
+
+- Buttons (Primary/Generate):
+  - Padding: 1rem vertical (py-4)
+  - Radius: 1.5rem (rounded-2xl)
+  - Shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.2) (shadow-emerald-500/20)
+  - Interaction: Scale 0.98 on active, -1px translate on hover
+
+- Form Inputs:
+  - Padding: 1rem vertical (py-4), 3rem horizontal (pl-12 pr-12)
+  - Border: 1px solid rgba(255, 255, 255, 0.5)
+  - Radius: 1.5rem (rounded-2xl)
+  - Focus State: Ring 2px (#10b981/20), Border (#10b981/50)
+
+- QR Container:
+  - Padding: 1.5rem (p-6)
+  - Background: White
+  - Radius: 1.875rem (rounded-3xl)
+  - Shadow: 0 20px 25px -5px rgba(16, 185, 129, 0.05) (shadow-emerald-500/5)
+  - Border: 1px Ring (gray-100)
+
+- Shadows:
+  - Inner Shadow (Template Previews): shadow-inner
+  - Small Shadow (Selected Template): shadow-sm
+  - Medium Shadow (Download Button): shadow-md
+  - Extra Large Shadow (QR Center): shadow-xl
+
+- Spacing & Layout:
+  - Main Grid Gap: 2rem (gap-8)
+  - Vertical Stacking: 1.5rem (space-y-6)
+  - Header Bottom Margin: 2rem (mb-8)
+  - Responsive: Single column on small screens, 2-column grid on md+ screens
