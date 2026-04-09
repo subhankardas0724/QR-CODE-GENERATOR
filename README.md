@@ -1,4 +1,3 @@
-
 🚀 QR Code Generator 2026
 
 A modern, high-performance QR Code Generator built to provide a seamless experience for converting URLs and text into high-quality, scan-ready QR codes instantly.
