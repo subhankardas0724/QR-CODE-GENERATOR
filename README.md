@@ -11,4 +11,5 @@ Live Demo: (https://qr-generator2026.netlify.app/)
 - Multi-Purpose: Supports URLs, plain text, contact details, and WiFi credentials.
 - Responsive UI: Optimized for a perfect viewing experience on mobile, tablet, and desktop devices.
 
-<img width="1888" height="1003" alt="image" src="https://github.com/user-attachments/assets/8adb4cd8-f6e3-4f92-ac87-44fa24e200cd" />
+<img width="1911" height="1017" alt="image" src="https://github.com/user-attachments/assets/f8c55130-f2be-4301-a773-40f5eafa310e" />
+
